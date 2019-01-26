@@ -1,0 +1,38 @@
+{
+  "baskets":
+  [
+    [
+      {
+        "name": "Cross 1",
+        "count": 2,
+        "price": 450
+      },
+
+      {
+        "name": "Cross 2",
+        "count": 15,
+        "price": 423
+      }
+    ],
+
+    [
+      {
+        "name": "Cross 5",
+        "count": 3,
+        "price": 1233
+      },
+
+      {
+        "name": "Cross 3",
+        "count": 1,
+        "price": 5323
+      },
+
+      {
+        "name": "Cross 4",
+        "count": 8,
+        "price": 513
+      }
+    ]
+  ]
+}
