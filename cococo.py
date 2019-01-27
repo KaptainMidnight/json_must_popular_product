@@ -19,12 +19,12 @@ class Analyser():  # Create class for analyse data.json
                 else:
                     count_product.update({product["name"]: product["count"]})  # Update dictionary count_product
         '''Count rating product'''
-        sorted_count = sorted(count_product, key=count_product.get, reverse=True)
-        for r in sorted_count:
+        sorted_count = sorted(count_product, key=count_product.get, reverse=True)  # Sorting product ascending
+        for r in sorted_count:  # Cycl for plunk sorted dictionary
             print(r, count_product[r])
 
 
-analyser = Analyser()  # Initialize class Analuyser
+analyser = Analyser()  # Initialize class Analyser
 '''Load data.json'''
 analyser.load_data("data.json")
 baskets = analyser.json_data["baskets"]
